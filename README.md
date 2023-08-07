@@ -18,6 +18,18 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Dependencies Installed
+
+1. [SASS - CSS Pre-processor](https://sass-lang.com)
+2. [Ant Design - UI Framework](https://ant.design/)
+3. [Ant Design Icons](https://ant.design/components/icon)
+4. [Axios](https://axios-http.com/docs/instance)
+5. [Dayjs](https://day.js.org/)
+
+## Customize Ant Design Theme
+
+If we need to change the default UI of ant design, we can use their [theme editor](https://ant.design/theme-editor). After selecting and changing the UI such as colors, sizes and others, you can export a JSON where you can see the "token" object. That object has to be copy and paste in <i>/theme/index</i>. More info [here](https://ant.design/docs/react/customize-theme).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
